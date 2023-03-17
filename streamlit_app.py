@@ -46,7 +46,7 @@ try:
 #streamlit.write('The user entered ', fruit_choice)
 
 #don't run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
